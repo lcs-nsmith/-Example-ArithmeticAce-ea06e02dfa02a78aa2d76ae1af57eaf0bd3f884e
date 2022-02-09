@@ -125,7 +125,7 @@ struct AdditionView: View {
                     .padding()
                 
                 LottieView(animationNamed: "42593-hitting-head-with-a-bat")
-                    .opacity(answerChecked == true && answerCorrect = false ? 1.0 : 0.0)
+                    .opacity(answerChecked == true && answerCorrect == false ? 1.0 : 0.0)
                     .padding()
                 
             }
