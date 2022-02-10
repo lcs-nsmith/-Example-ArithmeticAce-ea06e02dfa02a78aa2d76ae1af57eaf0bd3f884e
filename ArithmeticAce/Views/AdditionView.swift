@@ -99,7 +99,7 @@ struct AdditionView: View {
                 Button(action: {
                     // Generate a new question
                     augend = Int.random(in: 1...12)
-                    addend = Int.random(in: 1...12)
+                    addend = Int.random(in: 1...augend)
                     
                     // Reset properties that track what's happening with the current question
                     answerChecked = false
