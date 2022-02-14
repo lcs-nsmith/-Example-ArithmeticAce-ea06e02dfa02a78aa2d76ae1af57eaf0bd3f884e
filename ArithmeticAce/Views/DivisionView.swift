@@ -31,30 +31,13 @@ struct DivisionView: View {
     var body: some View {
         
         VStack(spacing: 0) {
+            
             QuestionPresentationView(operation: "÷", firstValue: correctQuotient, secondValue: divisor)
             
             Divider()
             
-            HStack {
-                ZStack {
-                    Image(systemName: "checkmark.circle")
-                        .foregroundColor(.green)
-                    //        CONDITION      true  false
-                        .opacity(answerCorrect == true ? 1.0 : 0.0)
-                    
-                    Image(systemName: "x.square")
-                        .foregroundColor(.red)
-                    //        CONDITION1         AND     CONDITION2         true  false
-                    //       answerChecked = true     answerCorrect = false
-                        .opacity(answerChecked == true && answerCorrect == false ? 1.0 : 0.0)
-                    
-                    
-                }
-                Spacer()
-                TextField("",
-                          text: $inputGiven)
-                    .multilineTextAlignment(.trailing)
-            }
+            
+            AnswerAndResultView(answerCorrect: answerCorrect, answerChecked: answerChecked, inputGiven: $inputGiven)
             
             ZStack {
                 

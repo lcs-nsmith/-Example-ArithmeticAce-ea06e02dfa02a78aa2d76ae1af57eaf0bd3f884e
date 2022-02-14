@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4ADAB3E427BA9A8C00B637CC /* QuestionPresentationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADAB3E327BA9A8C00B637CC /* QuestionPresentationView.swift */; };
+		4ADAB3E627BAA04100B637CC /* AnswerAndResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADAB3E527BAA04100B637CC /* AnswerAndResultView.swift */; };
 		4AE87FC027B422FC00A55DEB /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE87FBF27B422FC00A55DEB /* LottieView.swift */; };
 		4AE87FC427B4253600A55DEB /* 51926-happy.json in Resources */ = {isa = PBXBuildFile; fileRef = 4AE87FC327B4253600A55DEB /* 51926-happy.json */; };
 		4AE87FC627B427B700A55DEB /* 42593-hitting-head-with-a-bat.json in Resources */ = {isa = PBXBuildFile; fileRef = 4AE87FC527B427B700A55DEB /* 42593-hitting-head-with-a-bat.json */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		4ADAB3E327BA9A8C00B637CC /* QuestionPresentationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionPresentationView.swift; sourceTree = "<group>"; };
+		4ADAB3E527BAA04100B637CC /* AnswerAndResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerAndResultView.swift; sourceTree = "<group>"; };
 		4AE87FBF27B422FC00A55DEB /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		4AE87FC327B4253600A55DEB /* 51926-happy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "51926-happy.json"; sourceTree = "<group>"; };
 		4AE87FC527B427B700A55DEB /* 42593-hitting-head-with-a-bat.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "42593-hitting-head-with-a-bat.json"; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 			children = (
 				4AE87FBF27B422FC00A55DEB /* LottieView.swift */,
 				4ADAB3E327BA9A8C00B637CC /* QuestionPresentationView.swift */,
+				4ADAB3E527BAA04100B637CC /* AnswerAndResultView.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81FDA62E27B160FF002471AE /* MultiplicationView.swift in Sources */,
+				4ADAB3E627BAA04100B637CC /* AnswerAndResultView.swift in Sources */,
 				4ADAB3E427BA9A8C00B637CC /* QuestionPresentationView.swift in Sources */,
 				812B4B6427B319C5003A469B /* DivisionView.swift in Sources */,
 				81FDA62C27B160FF002471AE /* ArithmeticAceApp.swift in Sources */,
