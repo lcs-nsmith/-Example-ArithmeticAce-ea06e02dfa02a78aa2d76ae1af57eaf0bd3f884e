@@ -10,7 +10,7 @@ import SwiftUI
 struct AdditionView: View {
     
     // MARK: Stored properties
-    @State var augend = Int.random(in: 1...144)
+    @State var augend = Int.random(in: 1...143)
     @State var addend = 0
     
     // This string contains whatever the user types in
@@ -135,8 +135,10 @@ struct AdditionView: View {
         }
         .padding(.horizontal)
         .font(.system(size: 72))
+        // A block of code that runs once the view (structure) had been
+        // created
         .task {
-            addend = Int.random(in: 1...augend)
+            addend = Int.random(in: 1...144 - augend)
         }
         }
         
