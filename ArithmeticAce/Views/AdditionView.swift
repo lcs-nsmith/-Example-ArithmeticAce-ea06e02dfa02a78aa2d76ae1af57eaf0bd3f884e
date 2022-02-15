@@ -76,10 +76,10 @@ struct AdditionView: View {
         .task {
             addend = Int.random(in: 1...144 - augend)
         }
-        }
-        
-        
     }
+    
+    
+}
 
 struct AdditionView_Previews: PreviewProvider {
     static var previews: some View {

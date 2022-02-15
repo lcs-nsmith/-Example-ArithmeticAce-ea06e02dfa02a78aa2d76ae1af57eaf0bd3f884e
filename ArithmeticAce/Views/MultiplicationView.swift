@@ -41,7 +41,7 @@ struct MultiplicationView: View {
             ZStack {
                 
                 CheckAnswerButtonView(answerChecked: $answerChecked, inputGiven: inputGiven, answerCorrect: $answerCorrect, output: correctProduct)
-             
+                
                 
                 Button(action: {
                     // Generate a new question

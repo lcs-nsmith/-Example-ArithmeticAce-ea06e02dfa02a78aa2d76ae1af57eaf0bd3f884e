@@ -40,7 +40,7 @@ struct SubtractionView: View {
             ZStack {
                 
                 CheckAnswerButtonView(answerChecked: $answerChecked, inputGiven: inputGiven, answerCorrect: $answerCorrect, output: correctDifference)
-             
+                
                 
                 Button(action: {
                     // Generate a new question
@@ -64,7 +64,7 @@ struct SubtractionView: View {
                 
             }
             
-AnimationsAbstractionView(answerChecked: answerChecked, answerCorrect: answerCorrect)
+            AnimationsAbstractionView(answerChecked: answerChecked, answerCorrect: answerCorrect)
             
             Spacer()
         }

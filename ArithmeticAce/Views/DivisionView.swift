@@ -12,7 +12,7 @@ struct DivisionView: View {
     // MARK: Stored properties
     @State var correctQuotient = Int.random(in: 1...12)
     @State var divisor = Int.random(in: 1...12)
-
+    
     // This string contains whatever the user types in
     @State var inputGiven = ""
     
@@ -42,13 +42,13 @@ struct DivisionView: View {
             ZStack {
                 
                 CheckAnswerButtonView(answerChecked: $answerChecked, inputGiven: inputGiven, answerCorrect: $answerCorrect, output: correctQuotient)
-             
+                
                 
                 Button(action: {
                     // Generate a new question
                     correctQuotient = Int.random(in: 1...12)
                     divisor = Int.random(in: 1...12)
-
+                    
                     // Reset properties that track what's happening with the current question
                     answerChecked = false
                     answerCorrect = false
@@ -65,7 +65,7 @@ struct DivisionView: View {
                     .opacity(answerChecked == true ? 1.0 : 0.0)
                 
             }
-              
+            
             AnimationsAbstractionView(answerChecked: answerChecked, answerCorrect: answerCorrect)
             
             Spacer()
