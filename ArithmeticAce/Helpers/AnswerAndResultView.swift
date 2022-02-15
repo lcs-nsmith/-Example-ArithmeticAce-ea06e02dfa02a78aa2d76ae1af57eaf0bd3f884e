@@ -30,7 +30,7 @@ struct AnswerAndResultView: View {
                     .foregroundColor(.red)
                 //        CONDITION1         AND     CONDITION2         true  false
                 //       answerChecked = true     answerCorrect = false
-                    .opacity(answerChecked == true && answerCorrect == false ? 1.0 : 0.0)
+                    .opacity(answerChecked == true && answerCorrect == false ? 1.0 : 0.0) 
             }
             
             Spacer()

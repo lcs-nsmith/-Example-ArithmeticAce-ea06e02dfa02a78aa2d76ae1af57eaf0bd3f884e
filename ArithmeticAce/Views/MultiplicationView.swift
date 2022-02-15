@@ -54,7 +54,7 @@ struct MultiplicationView: View {
                     
                     // Reset the input field
                     inputGiven = ""
-                }, label: {
+                                    }, label: {
                     Text("New question")
                         .font(.largeTitle)
                 })
@@ -64,6 +64,8 @@ struct MultiplicationView: View {
                     .opacity(answerChecked == true ? 1.0 : 0.0)
                 
             }
+            
+            AnswerTextView(output: correctProduct, answerChecked: answerChecked, answerCorrect: answerChecked)
             
             AnimationsAbstractionView(answerChecked: answerChecked, answerCorrect: answerCorrect)
             

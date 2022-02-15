@@ -66,6 +66,8 @@ struct DivisionView: View {
                 
             }
             
+            AnswerTextView(output: correctQuotient, answerChecked: answerChecked, answerCorrect: answerCorrect)
+            
             AnimationsAbstractionView(answerChecked: answerChecked, answerCorrect: answerCorrect)
             
             Spacer()

@@ -14,7 +14,6 @@ struct CheckAnswerButtonView: View {
     @Binding var answerCorrect: Bool
     let output: Int
     
-    
     var body: some View {
         Button(action: {
             
@@ -27,7 +26,7 @@ struct CheckAnswerButtonView: View {
                 answerCorrect = false
                 return
             }
-            
+    
             // Check the answer!
             if sumGiven == output {
                 // Celebrate! 👍🏼

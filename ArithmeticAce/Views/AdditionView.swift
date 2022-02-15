@@ -61,8 +61,9 @@ struct AdditionView: View {
                     .buttonStyle(.bordered)
                 // Only show this button when an answer has been checked
                     .opacity(answerChecked == true ? 1.0 : 0.0)
-                
             }
+            
+           AnswerTextView(output: correctSum, answerChecked: answerChecked, answerCorrect: answerCorrect)
             
             AnimationsAbstractionView(answerChecked: answerChecked, answerCorrect: answerCorrect)
             

@@ -22,6 +22,8 @@ struct SubtractionView: View {
     // Was the answer given actually correct?
     @State var answerCorrect = false
     
+    @State var answerText = false
+    
     // MARK: Computed properties
     // What is the correct difference?
     var correctDifference: Int {
@@ -51,6 +53,8 @@ struct SubtractionView: View {
                     answerChecked = false
                     answerCorrect = false
                     
+                    answerText = false
+                    
                     // Reset the input field
                     inputGiven = ""
                 }, label: {
@@ -63,6 +67,8 @@ struct SubtractionView: View {
                     .opacity(answerChecked == true ? 1.0 : 0.0)
                 
             }
+            
+            AnswerTextView(output: correctDifference, answerChecked: answerChecked, answerCorrect: answerCorrect)
             
             AnimationsAbstractionView(answerChecked: answerChecked, answerCorrect: answerCorrect)
             
