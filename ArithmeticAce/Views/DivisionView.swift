@@ -32,7 +32,7 @@ struct DivisionView: View {
         
         VStack(spacing: 0) {
             
-            QuestionPresentationView(operation: "÷", firstValue: correctQuotient, secondValue: divisor)
+            QuestionPresentationView(operation: "÷", firstValue: dividend, secondValue: divisor)
             
             Divider()
             
