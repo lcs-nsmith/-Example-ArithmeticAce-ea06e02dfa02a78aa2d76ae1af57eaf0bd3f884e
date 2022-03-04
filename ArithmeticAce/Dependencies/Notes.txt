@@ -1,0 +1,26 @@
+Refrence Videos to make the history list persist and work:
+
+1. Thread Three - Day 8: https://www.youtube.com/watch?v=ye4389bwyf8
+
+2. Thread Three - Day 9: https://www.youtube.com/watch?v=WXOxH3Dl5Rg&t=327s
+
+Documentation for each of these videos:
+
+1. Thread Three - Day 8:
+
+existing one ˅˅
+https://cvws.icloud-content.com/B/AVuIj7wnFHK2tAX32fHmZ-cfrmD8ARWCT_G7U0qu3sMp4AcgmD22a23A/Thread+3+-+Day+8.pdf?o=Avs_3nuVMnNTuwry5aFWeCqmoWXbo_c9lJqp9JU3Dv82&v=1&x=3&a=CAogVAroqcl3-Ua33ChjdjRUWfD9YgI87txe2uNDIgwLGNkSaRDYy5ax9S8Y-MLNsfUvIgEAUgQfrmD8WgS2a23AaiRWmI1yBv7mMz51WhRx6a6hBORUYokdppcnl3LVWIoaSrQh8w5yJBqvKi8gH5FwqhZ4WB5_PItPl2P116oVxS0uBB-Dd5qwZLhe6w&e=1646418682&fl=&r=c2b2d5a7-76ec-41fa-ba72-cf906c9606c5-1&k=1J2R1QTI-HKmLGSOIIesog&ckc=com.apple.clouddocs&ckz=com.apple.CloudDocs&p=101&s=6pU0zODv9zfpxvgIghslSvTXHBc&cd=i
+
+new one ˅˅
+https://www.icloud.com/iclouddrive/01fb3yH_y506IhgRedWNa6NWg#Thread_3_-_Day_8
+
+2. Thread Three - Day 9:
+
+existing one ˅˅
+https://cvws.icloud-content.com/B/AdLxiN5VPXwUjShwEVZ6a_kCG6L3AaT8VLGCxMY-vjUXqX1ApSlLX0eg/Thread+3+-+Day+9+-+Section+1.pdf?o=ApOKqntTdWu2OXKakArf38fXzL3HCUgpkHqxzfVdrYk_&v=1&x=3&a=CAogagw8Gg3o6KMMyGFXRtqgTZQPK9NOMuiyEex8LQ-1lUcSaRDQ5ZCw9S8Y8NzHsPUvIgEAUgQCG6L3WgRLX0egaiQIGEDWNDNdCdKtnkADJ84IJFVwDUBhV5qrme2nD-ANYNTY2gxyJCv_KJizPLlINSa5nxf5rpHoY3hp48JSuB1XIsroT3mejVhXIQ&e=1646416490&fl=&r=4abab1fa-f488-4842-9533-fe1033c7d782-1&k=lf1cu5Bs2sW113LqDa9kBw&ckc=com.apple.clouddocs&ckz=com.apple.CloudDocs&p=101&s=40odbIdG41hQdzPlriSGW869HKY&cd=i
+
+new one ˅˅
+https://www.icloud.com/iclouddrive/0e1OLc9W8kFne7nAa9KAJTzQw#Thread_3_-_Day_9
+
+
+> other links and raw code are availible within those four resources <
