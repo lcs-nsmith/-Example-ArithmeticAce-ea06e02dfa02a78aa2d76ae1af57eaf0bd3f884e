@@ -15,7 +15,7 @@ struct AnimationsAbstractionView: View {
     @Binding var history: [HistoryFile]
     
     var body: some View {
-        List(history) { currentHistory in
+        List(history, id: \.self) { currentHistory in
             Text("\(currentHistory.firstValue) \(currentHistory.operation) \(currentHistory.secondValue) \(currentHistory.input) \(currentHistory.correctInput)")
         }
 }

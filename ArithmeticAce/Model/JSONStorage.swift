@@ -7,8 +7,7 @@
 
 import Foundation
 
-struct HistoryFile: Identifiable, Encodable {
-    let id: UUID
+struct HistoryFile: Hashable, Encodable {
     let firstValue: Int
     let operation: String
     let secondValue: Int
