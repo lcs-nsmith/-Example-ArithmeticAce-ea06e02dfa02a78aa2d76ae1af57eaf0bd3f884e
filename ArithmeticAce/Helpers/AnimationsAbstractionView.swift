@@ -12,21 +12,14 @@ struct AnimationsAbstractionView: View {
     let answerChecked: Bool
     let answerCorrect: Bool
     
+    @Binding var history: [HistoryFile]
+    
     var body: some View {
-        List {
-            // Reaction Animation
-            LottieView(animationNamed: "51926-happy")
-                .opacity(answerCorrect == true ? 1.0 : 0.0)
-                .padding()
-            
-            LottieView(animationNamed: "42593-hitting-head-with-a-bat")
-                .opacity(answerChecked == true && answerCorrect == false ? 1.0 : 0.0)
-                .padding()
-            
+        List(history) { currentHistory in
+            Text("\(currentHistory.firstValue) \(currentHistory.operation) \(currentHistory.secondValue) \(currentHistory.input) \(currentHistory.correctInput)")
         }
-    }
 }
-
+}
 //struct AnimationsAbstractionView_Previews: PreviewProvider {
 //    static var previews: some View {
 //        AnimationsAbstractionView()

@@ -67,7 +67,7 @@ struct AdditionView: View {
             
            AnswerTextView(output: correctSum, answerChecked: answerChecked, answerCorrect: answerCorrect)
             
-            AnimationsAbstractionView(answerChecked: answerChecked, answerCorrect: answerCorrect)
+            AnimationsAbstractionView(answerChecked: answerChecked, answerCorrect: answerCorrect, history: $history)
             
             Spacer()
             

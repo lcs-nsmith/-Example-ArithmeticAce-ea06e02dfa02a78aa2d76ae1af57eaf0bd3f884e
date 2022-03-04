@@ -72,7 +72,7 @@ struct SubtractionView: View {
             
             AnswerTextView(output: correctDifference, answerChecked: answerChecked, answerCorrect: answerCorrect)
             
-            AnimationsAbstractionView(answerChecked: answerChecked, answerCorrect: answerCorrect)
+            AnimationsAbstractionView(answerChecked: answerChecked, answerCorrect: answerCorrect, history: $history)
             
             Spacer()
         }
