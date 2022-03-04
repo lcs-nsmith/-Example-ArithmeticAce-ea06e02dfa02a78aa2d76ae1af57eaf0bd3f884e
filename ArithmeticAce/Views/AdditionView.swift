@@ -30,6 +30,10 @@ struct AdditionView: View {
         return augend + addend
     }
     
+    var currentEquation: HistoryFile {
+        return HistoryFile(firstValue: augend, operation: "+", secondValue: addend, input: inputGiven, correctInput: correctSum, answerCorrect: answerCorrect)
+    }
+    
     var body: some View {
         
         VStack(spacing: 0) {
@@ -78,6 +82,7 @@ struct AdditionView: View {
         // created
         .task {
             addend = Int.random(in: 1...144 - augend)
+            history.append(currentEquation)
         }
     }
     
