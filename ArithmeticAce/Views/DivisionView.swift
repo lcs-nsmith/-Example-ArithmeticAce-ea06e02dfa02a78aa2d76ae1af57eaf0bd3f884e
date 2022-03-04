@@ -16,6 +16,8 @@ struct DivisionView: View {
     // This string contains whatever the user types in
     @State var inputGiven = ""
     
+    @State var history: [HistoryFile] = []
+    
     // Has an answer been checked?
     @State var answerChecked = false
     
