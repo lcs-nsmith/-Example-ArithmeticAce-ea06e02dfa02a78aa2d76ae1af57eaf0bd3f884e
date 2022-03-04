@@ -13,7 +13,7 @@ struct AnimationsAbstractionView: View {
     let answerCorrect: Bool
     
     var body: some View {
-        ZStack {
+        List {
             // Reaction Animation
             LottieView(animationNamed: "51926-happy")
                 .opacity(answerCorrect == true ? 1.0 : 0.0)
