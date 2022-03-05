@@ -38,7 +38,7 @@ struct CheckAnswerButtonView: View {
         }, label: {
             Text("Check Answer")
                 .font(.largeTitle)
-        })
+        })  
             .padding()
             .buttonStyle(.bordered)
         // Only show this button when an answer has not been checked
